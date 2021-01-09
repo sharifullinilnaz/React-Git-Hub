@@ -1,0 +1,55 @@
+{
+  "name": "react-github-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "joi": "^17.3.0",
+    "mdi-react": "^7.4.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^2.1.8",
+    "styled-components": "^5.2.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "concurrently \"cd server && nodemon index.js \" \"react-scripts start\" ",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.1.10",
+    "@types/react": "^16.14.2",
+    "@types/react-dom": "^16.9.10"
+  }
+}
